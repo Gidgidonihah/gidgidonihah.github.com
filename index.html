@@ -20,7 +20,13 @@
     <link sizes="512x512" rel="icon" type="image/png" href="favicons/favicon-512.png">
 
     <link href='https://fonts.googleapis.com/css?family=Limelight&amp;text=Jason%20Weir' rel='stylesheet' type='text/css'>
-    <script> document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+    <script>
+      // Redirect from github to gidgidonihah.com
+      if (window.location.href !== 'https://gidgidonihah.com/') window.location.href = 'https://gidgidonihah.com/'
+
+      // Mark the page as js-enabled
+      document.documentElement.className = document.documentElement.className.replace("no-js","js");
+    </script>
     <style>
       * { box-sizing: border-box; }
       body       {
