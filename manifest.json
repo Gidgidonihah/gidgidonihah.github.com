@@ -1,0 +1,21 @@
+{
+  "short_name": "Gid",
+  "name": "Gidgidonihah",
+  "icons": [
+    {
+      "src": "/favicons/favicon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/favicons/favicon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#111111",
+  "display": "standalone",
+  "scope": "/maps/",
+  "theme_color": "#de3b6a"
+}
